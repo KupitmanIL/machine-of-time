@@ -9,19 +9,19 @@ export function Contacts() {
                         Контакты
                     </h2>
 
-                    <p className="mt-3 text-neutral-600">
+                    <p className="mt-3 text-neutral-900">
                         Позвоните нам или приезжайте в мастерскую.
                     </p>
                 </div>
 
                 <div className="grid gap-8 lg:grid-cols-2">
-                    <div className="space-y-4 rounded-2xl border border-neutral-200 bg-white p-6 text-red-600">
+                    <div className="space-y-6 rounded-2xl border border-neutral-200 bg-white p-6 text-neutral-900">
                         <div>
                             <h3 className="font-semibold">Телефон</h3>
 
                             <a
                                 href="tel:+79028954232"
-                                className="text-red-600 hover:underline"
+                                className="text-red-600 transition hover:underline"
                             >
                                 +7 (902) 895-42-32
                             </a>
@@ -41,7 +41,7 @@ export function Contacts() {
                                 href="https://vk.com/mashinavremeni174?w=club178461085"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="text-red-600 hover:underline"
+                                className="text-red-600 transition hover:underline"
                             >
                                 Перейти в группу
                             </a>
@@ -54,7 +54,7 @@ export function Contacts() {
                         </div>
                     </div>
 
-                    <div className="flex min-h-80 items-center justify-center rounded-2xl border border-dashed border-neutral-300 bg-neutral-100 text-center text-neutral-500">
+                    <div className="flex min-h-80 items-center justify-center rounded-2xl border border-dashed border-neutral-300 bg-neutral-100 p-6 text-center text-neutral-900">
                         Здесь будет Яндекс.Карта
                     </div>
                 </div>
