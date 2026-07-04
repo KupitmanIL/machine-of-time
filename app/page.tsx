@@ -1,9 +1,9 @@
+import { Hero } from "@/components/sections/Hero/Hero";
+
 export default function Home() {
-  return (
-      <main>
-        <h1>Автосервис «Машина времени»</h1>
-        <p>Ремонт и обслуживание автомобилей в Магнитогорске</p>
-        <a href="tel:+79028954232">Позвонить</a>
-      </main>
-  );
+    return (
+        <main>
+            <Hero />
+        </main>
+    );
 }
