@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/machine-of-time.iml" filepath="$PROJECT_DIR$/.idea/machine-of-time.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/machinavremeni.iml" filepath="$PROJECT_DIR$/.idea/machinavremeni.iml" />
     </modules>
   </component>
 </project>
